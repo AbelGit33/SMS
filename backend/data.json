@@ -1,0 +1,127 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@sms.com",
+      "password": "$2a$10$dYIsMCvtDMDGpcVBrWFxoe/FjJzz8n99077BYgI5ARg52NELaYDli",
+      "role": "admin",
+      "created_at": "2026-06-08T00:09:03.847Z"
+    }
+  ],
+  "students": [
+    {
+      "name": "Tesfahun Abebe",
+      "email": "tesfahunabel92@gmail.com",
+      "phone": "0970862975",
+      "course_id": "1",
+      "enrollment_date": "2026-07-12",
+      "status": "Active",
+      "address": "Injibara",
+      "date_of_birth": "2005-03-16",
+      "gender": "Male",
+      "id": "a0aec6fa-4863-4810-9475-5aef0bfc530c",
+      "created_at": "2026-07-12T07:29:10.714Z",
+      "updated_at": "2026-07-12T07:31:45.792Z"
+    }
+  ],
+  "courses": [
+    {
+      "name": "fundamentals of networking",
+      "code": "FN002",
+      "description": "it's basic study of networking fundamentals",
+      "duration": "1 year",
+      "fee": 100,
+      "status": "Active",
+      "id": 1,
+      "created_at": "2026-07-12T07:30:54.106Z"
+    }
+  ],
+  "attendance": [
+    {
+      "id": 1,
+      "student_id": "a0aec6fa-4863-4810-9475-5aef0bfc530c",
+      "date": "2026-07-12",
+      "status": "Present",
+      "remark": "",
+      "created_at": "2026-07-12T07:32:29.482Z"
+    },
+    {
+      "id": 2,
+      "student_id": "a0aec6fa-4863-4810-9475-5aef0bfc530c",
+      "date": "2026-11-09",
+      "status": "Present",
+      "remark": "",
+      "created_at": "2026-11-09T19:04:49.814Z"
+    }
+  ],
+  "fees": [],
+  "activity_logs": [
+    {
+      "id": 1,
+      "user_id": null,
+      "action": "student_created",
+      "details": "Student \"Tesfahun Abebe\" created",
+      "created_at": "2026-07-12T07:29:10.716Z"
+    },
+    {
+      "id": 2,
+      "user_id": null,
+      "action": "course_created",
+      "details": "Course \"fundamentals of networking\" created",
+      "created_at": "2026-07-12T07:30:54.108Z"
+    },
+    {
+      "id": 3,
+      "user_id": null,
+      "action": "student_updated",
+      "details": "Student \"Tesfahun Abebe\" updated",
+      "created_at": "2026-07-12T07:31:45.794Z"
+    },
+    {
+      "id": 4,
+      "user_id": null,
+      "action": "attendance_marked",
+      "details": "1 attendance records saved",
+      "created_at": "2026-07-12T07:32:29.485Z"
+    },
+    {
+      "id": 5,
+      "user_id": null,
+      "action": "attendance_marked",
+      "details": "1 attendance records saved",
+      "created_at": "2026-11-09T19:04:49.824Z"
+    },
+    {
+      "id": 6,
+      "user_id": null,
+      "action": "attendance_marked",
+      "details": "1 attendance records saved",
+      "created_at": "2026-11-09T19:04:52.355Z"
+    },
+    {
+      "id": 7,
+      "user_id": null,
+      "action": "attendance_marked",
+      "details": "1 attendance records saved",
+      "created_at": "2026-11-09T19:04:54.645Z"
+    },
+    {
+      "id": 8,
+      "user_id": null,
+      "action": "attendance_marked",
+      "details": "1 attendance records saved",
+      "created_at": "2026-11-09T19:04:57.254Z"
+    },
+    {
+      "id": 9,
+      "user_id": null,
+      "action": "attendance_marked",
+      "details": "1 attendance records saved",
+      "created_at": "2026-11-09T19:05:05.106Z"
+    }
+  ],
+  "counters": {
+    "users": 1
+  }
+}
